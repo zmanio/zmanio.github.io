@@ -1,0 +1,39 @@
+---
+layout: default
+title: blog
+date: 2014-03-12 12:00:00
+---
+
+{% assign page = site.posts.first %}
+{% assign content = page.content %}
+
+<div id="post-info">
+  <div id="cover-photo-container">
+    <img id="cover-photo" src="/images/{{ page.cover }}">
+  </div>
+  <div id="info-container">
+    <a href="{{ page.url }}">
+      <h1 id="title">{{ page.title }}</h1>
+      <p id="date">{{ page.date | date_to_string }}</p>
+    </a>
+  </div>
+</div>
+<div class="post">
+  {{ page.excerpt }}
+</div>
+
+<div class="posts">
+  {% for post in site.posts offset:1 %}
+    <div id="post-info">
+      <div id="info-container">
+        <a href="{{ post.url }}">
+          <h2 class="title-like">{{ post.title }}</h2>
+          <p class="date-like">{{ post.date | date_to_string }}</p>
+        </a>
+      </div>
+    </div>
+    <div class="post">
+      {{ post.excerpt }}
+    </div>
+  {% endfor %}
+</div>
