@@ -8,7 +8,7 @@ layout: none
     <description>Posts about the rummage library</description>
     <link>{{ site.url }}/rummage</link>
     <atom:link href="{{ site.url }}/blog/rummage.xml" rel="self" type="application/rss+xml" />
-    {% for post in site.categories.miscellaneous limit:10 %}
+    {% for post in site.categories.rummage limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.content | xml_escape }}</description>
