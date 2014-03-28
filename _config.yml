@@ -1,4 +1,6 @@
 name: zman.io
+url: http://zman.io
+rss: feed.xml
 markdown: redcarpet
 pygments: true
 layouts: ./_zman.io/_layouts
