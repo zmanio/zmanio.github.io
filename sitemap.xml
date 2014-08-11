@@ -1,0 +1,19 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+    <url>
+        <loc>{{ site.url }}/</loc>
+        <loc>{{ site.url }}/blog</loc>
+        <loc>{{ site.url }}/categories</loc>
+        <loc>{{ site.url }}/tags</loc>
+    </url>
+    
+    {% for post in site.posts %}
+    <url>
+        <loc>{{ site.url }}{{ post.url }}</loc>
+    </url>
+    {% endfor %}
+</urlset>

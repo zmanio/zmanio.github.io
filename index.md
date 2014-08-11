@@ -1,9 +1,11 @@
 ---
 layout: home
-title: home
-cover: cover.jpg
+title: projects
+description: "Software for eating the world."
+headline: zman projects
+tags: [software, projects, scala]
 ---
 
-## [Rummage](/rummage/)
+## [sbt-ghreadme](/sbt-ghreadme/)
 
-The [rummage](/rummage/) project consists of self-contained [Scala](http://www.scala-lang.org/) utilities that are too small and general to warrant their own package and/or artifact, but are too large, nuanced or handy to have around to be re-implemented over and over again.
+sbt-ghreadme description
