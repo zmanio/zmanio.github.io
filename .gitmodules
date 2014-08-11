@@ -1,4 +1,0 @@
-[submodule "_zman.io"]
-	path = _zman.io
-	url = https://github.com/zmanio/zman.io.git
-	branch = master
