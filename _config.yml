@@ -1,12 +1,12 @@
 title:         zman.io
-description:   software for eating the world
+description:   things you assume someone would eventually make
 logo:          logo.png
 default_bg:    zman.jpg
 layouts:       ./_includes/_layouts
 url:           "http://localhost:4000"
     
 timezone:      America/Denver
-permalink:     /:categories/:title
+permalink:     /posts/:categories/:title
 paginate:      7
 paginate_path: "page:num"
 future:        false
