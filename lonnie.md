@@ -11,5 +11,5 @@ tags: [Lonnie, Pryor]
   <figcaption>Old school <a href="https://www.oracle.com/java/">Java</a>, hardcore <a href="http://www.scala-lang.org/">Scala</a>, lusting after <a href="http://www.rust-lang.org/">Rust</a>.</figcaption>
 </figure>
 
-I work at (LinkedIn)[http://linkedin.com/in/lonniepryor], I play on (Github)[http://github.com/lpryor].
+I work at [LinkedIn](http://linkedin.com/in/lonniepryor), I play on [Github](http://github.com/lpryor).
 
