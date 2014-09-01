@@ -3,7 +3,7 @@ description:   things you assume someone would eventually make
 logo:          logo.png
 default_bg:    zman.jpg
 layouts:       ./_includes/_layouts
-url:           "http://localhost:4000"
+url:           "http://0.0.0.0:4000"
     
 timezone:      America/Denver
 permalink:     /posts/:categories/:title

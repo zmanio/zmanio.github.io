@@ -2,9 +2,11 @@
 layout: home
 title: projects
 description: "Software for eating the world."
-headline: zman projects
+headline: software for eating the world
 tags: [software, projects, scala]
 ---
+
+I write a lot of software, some of it makes its way here where it's available [for free](https://www.apache.org/licenses/LICENSE-2.0.html).
 
 ## [rummage](/rummage/) - <small>that one thing you always have to look for</small>
 
