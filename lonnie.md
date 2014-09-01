@@ -8,8 +8,7 @@ tags: [Lonnie, Pryor]
 ---
 <figure>
   <img src="{{ site.url }}/images/me.jpg" alt="Lonnie Pryor III">
-  <figcaption>Old school <a href="https://www.oracle.com/java/">Java</a>, hardcore <a href="http://www.scala-lang.org/">Scala</a>, lusting after <a href="http://www.rust-lang.org/">Rust</a>.</figcaption>
+  <figcaption>Old school <a href="https://www.oracle.com/java/">Java</a>, hardcore <a href="http://www.scala-lang.org/">Scala</a>, lusting after <a href="http://www.rust-lang.org/">Rust</a>. I work at [LinkedIn](http://linkedin.com/in/lonniepryor), I play on [Github](http://github.com/lpryor).</figcaption>
 </figure>
 
-I work at [LinkedIn](http://linkedin.com/in/lonniepryor), I play on [Github](http://github.com/lpryor).
 
