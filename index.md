@@ -16,4 +16,4 @@ The project currently contains only a flexible timer abstraction for scheduling 
 
 ## [sbt-ghreadme](/sbt-ghreadme/) - <small>use github readme files in your sbt-site</small>
 
-A [SBT](http://www.scala-sbt.org/) plugin that extends [sbt-site](https://github.com/sbt/sbt-site) by converting github-style README files into [Jekyll](http://jekyllrb.com/) documents by prepending YAML front matter. This allows you to use the same documentation in multiple contexts without any manual duplication.
+A [SBT](http://www.scala-sbt.org/) plugin that extends [sbt-site](https://github.com/sbt/sbt-site) by prepending YAML front matter to your github-style README files and including them in the generated site. This allows you to use the same documentation in multiple contexts without any manual duplication.
