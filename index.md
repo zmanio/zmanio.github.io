@@ -8,10 +8,12 @@ tags: [software, projects, scala]
 
 I write a lot of software, some of it makes its way here where it's available [for free](https://www.apache.org/licenses/LICENSE-2.0.html).
 
-## [rummage](/rummage/) - <small>that one thing you always have to look for</small>
+## [rummage](/rummage/) - <small>one-off scala utilities and tools</small>
 
-The [rummage](/rummage/) project consists of self-contained [Scala](http://www.scala-lang.org/) utilities that are too small and general to warrant their own package and/or artifact, but are too large, nuanced or handy to have around to be re-implemented over and over again.
+A [Scala](http://www.scala-lang.org/) library that contains utilities that are too small and general to warrant their own package and/or artifact, but are too large, nuanced or handy to have around to be re-implemented over and over again.
 
-## [sbt-ghreadme](/sbt-ghreadme/) - <small>never repeat yourself or your documentation</small>
+The project currently contains only a flexible timer abstraction for scheduling delayed and repeating tasks. 
 
-A SBT plugin that extends sbt-site by converting github-style README files into Jekyll documents included in the site.
+## [sbt-ghreadme](/sbt-ghreadme/) - <small>use github readme files in your sbt-site</small>
+
+A [SBT](http://www.scala-sbt.org/) plugin that extends [sbt-site](https://github.com/sbt/sbt-site) by converting github-style README files into [Jekyll](http://jekyllrb.com/) documents by prepending YAML front matter. This allows you to use the same documentation in multiple contexts without any manual duplication.
